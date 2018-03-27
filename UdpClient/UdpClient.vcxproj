@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B12702AD-ABFB-343A-A199-8E24837244A3}</ProjectGuid>
+    <ProjectGuid>{0C1FC4A7-6EC8-4636-AAF7-E6B9CF970FF7}</ProjectGuid>
     <Keyword>Qt4VSv1.0</Keyword>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -116,19 +116,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="NetworkInformation.cpp" />
+    <ClCompile Include="UdpClient.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="NetworkInformation.h" />
+    <QtMoc Include="UdpClient.h" />
   </ItemGroup>
   <ItemGroup>
-    <QtUic Include="NetworkInformation.ui" />
+    <QtUic Include="UdpClient.ui" />
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="NetworkInformation.qrc" />
+    <QtRcc Include="UdpClient.qrc" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="NetworkInformation.rc" />
+    <ResourceCompile Include="UdpClient.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
